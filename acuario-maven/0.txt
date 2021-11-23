@@ -3,22 +3,22 @@
 #######################################################
 ##  Número de factura: 0
 ##  Tienda Acuario (CIF A11199938H)
-##  Fecha: Wed Nov 17 19:03:59 CET 2021
+##  Fecha: Tue Nov 23 13:37:43 CET 2021
 #######################################################
-##  Código Cliente: 788023011988
-##  Nombre Cliente: Emilio
-##  Direccion: Wisconsin
-##  Teléfono: 665544332
+##  Código Cliente: 543228021953
+##  Nombre Cliente: María
+##  Direccion: Cádiz
+##  Teléfono: 676543289
 #######################################################
 ## Cantidad -- Descripcion                    -- Precio
 -------------------------------------------------------
-          1 -- Alimento para pez pequeño      -- 7,00
+          1 -- Alimento Sticks                -- 2,95
           1 -- Cascada para decoración        -- 100,40
           1 -- GoldFish                       -- 5,00
 -------------------------------------------------------
-## Importe (antes de impuestos)                  92,89
-## Impuestos (21%)                               19,51
-## IMPORTE TOTAL                                 112,40
+## Importe (antes de impuestos)                  89,55
+## Impuestos (21%)                               18,80
+## IMPORTE TOTAL                                 108,35
 #######################################################
 ## Observaciones
 ## 
