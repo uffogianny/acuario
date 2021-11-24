@@ -12,13 +12,19 @@ public class Test {
     static int opcion;
 
     public static void main(String[] args) throws IOException{
+        System.out.println("\n\n\n************************************************\n\t\t TEST TAQUILLA");
         Taquilla taquilla = new Taquilla();
 
-        System.out.println("\n_______Compra de entradas_______");
+        System.out.println("\n\n\n************************************************\n");
+        System.out.println("Compra de entradas");
         taquilla.Entrada();
-        System.out.println("\n_______Historial de ventas_______--");
+
+        System.out.println("\n\n\n************************************************\n");
+        System.out.println("Historial de ventas");
         taquilla.historial();
-        System.out.println("\n_______Beneficios_______");
+
+        System.out.println("\n\n\n************************************************\n");
+        System.out.println("Beneficios");
         taquilla.beneficios();
     }
 

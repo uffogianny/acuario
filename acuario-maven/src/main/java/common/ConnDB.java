@@ -364,6 +364,9 @@ public class ConnDB {
                     case 5:
                         a=new Pecera(codigo,nombre,stock,precio);
                         break;
+                    case 6:
+                        a=new Peluche(codigo,nombre,stock,precio);
+                        break;
                 }
             }
         } catch (SQLException e) {

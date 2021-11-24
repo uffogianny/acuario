@@ -8,6 +8,7 @@ public class Tienda {
     // Conector JDBC y patrón Singleton
     private static ConnDB bbdd=ConnDB.getInstance();
     private static Tienda instanciaUnica=null;
+    private double caja=0;
 
     private Tienda(){
     }
@@ -17,6 +18,10 @@ public class Tienda {
             instanciaUnica=new Tienda();
         }
         return instanciaUnica;
+    }
+
+    public void mostrarCaja() {
+        System.out.println("El total de la caja es: "+caja);
     }
 
     // Este método muestra todos los datos almacenados en la BBDD
@@ -99,6 +104,9 @@ public class Tienda {
 
         System.out.println("IMPRIMIMOS FACTURA EN FICHERO");
         f.imprimir();
+
+        System.out.println("ACTUALIZAMOS BENEFICIOS DE CAJA");
+        mostrarCaja();
     }
 
 }

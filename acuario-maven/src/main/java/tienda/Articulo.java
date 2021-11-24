@@ -10,6 +10,7 @@ public abstract class Articulo {
     private String descripcion;
     private int stock;
     private double precio;
+    private int tipo;
 
     /**
      * Constructor
@@ -19,11 +20,12 @@ public abstract class Articulo {
      * @param stock       Cantidad disponible en stock
      * @param precio      Precio unitario del artículo
      */
-    public Articulo(String codigo, String descripcion, int stock, double precio) {
+    public Articulo(String codigo, String descripcion, int stock, double precio, int tipo) {
         this.codigo = codigo;
         this.descripcion = descripcion;
         this.stock = stock;
         this.precio = precio;
+        this.tipo=tipo;
     }
 
     /**
@@ -81,5 +83,15 @@ public abstract class Articulo {
     public void setPrecio(double precio) {
         this.precio = precio;
     }
+
+    /**
+     * @return Tipo de articulo
+     */
+    public int getTipo(){ return tipo; }
+
+    /**
+     * @param tipo Tipo de articulo
+     */
+    public void setTipo(int tipo){ this.tipo=tipo; }
 
 }

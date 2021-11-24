@@ -1,8 +1,7 @@
 package main;
 import acuario.Acuario;
+import taquilla.Taquilla;
 import tienda.Tienda;
-import tienda2.Tienda2;
-import eventos.Evento;
 
 /**
  * Clase deonde se ejecuta el programa
@@ -17,10 +16,8 @@ public class Main {
             Tienda tienda=Tienda.getInstance();
             tienda.mostrarTodo();
             tienda.test();
-            Tienda2 tienda2=new Tienda2();
-            tienda2.test();
-            Evento evento=new Evento();
-            evento.test();
+            Taquilla taquilla=new Taquilla();
+            taquilla.test();
         } catch (Exception e) {
             System.out.println(">>>>>>>>>>> No se puede conectar con la base de datos");
         }
